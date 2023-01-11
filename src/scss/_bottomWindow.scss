@@ -1,0 +1,36 @@
+@import "_vars.scss";
+
+/* Style the bottom section with the buttons */
+#bottom {
+    height: 50vh;
+    display: flex;
+    flex-direction: column;
+    // flex-wrap: wrap;
+  }
+
+  /* Timer-Grid */
+  #timer-grid {
+    display: grid;
+    height: 100%;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+    div{
+        background-color: $sec-color;
+        padding: 20px;
+        border: 10px;
+        text-align: center;
+    }
+  } 
+
+  /* Timer-Groups */
+  #timer-groups {
+    // display: grid;
+    min-height: 16%;
+    width: 100%;
+    background-color: $font-color;
+    // div{
+    //     background-color: #107c10;
+    //     padding: 20px;
+    //     text-align: center;
+    // }
+  } 
